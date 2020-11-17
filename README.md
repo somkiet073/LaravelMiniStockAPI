@@ -15,7 +15,21 @@ composer install
 # install vendor
 ```
 
-#### 3. Start server
+#### 3. Migrate Database
+
+```sh
+php artisan migrate
+# 
+```
+
+#### 4. Database Seeder
+
+```sh
+php artisan db:seed
+# 
+```
+
+#### 5. Start server
 
 ```sh
 php artisan serve
