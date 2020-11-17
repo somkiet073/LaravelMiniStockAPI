@@ -10,7 +10,7 @@
 #### 2. Install vendor
 
 ```sh
-cd LaravelMiniStockAPI/
+cd LaravelMiniStockAPI/ and run composer install on cmd.
 composer install
 # install vendor
 ```
