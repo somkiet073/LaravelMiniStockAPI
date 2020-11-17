@@ -1,5 +1,19 @@
 # Laravel Mini Stock API
+### Quick Start
 
+#### 1. Clone Project.
+
+```sh
+ https://github.com/somkiet073/LaravelMiniStockAPI.git
+```
+
+#### 2. Start server
+
+```sh
+cd LaravelMiniStockAPI/
+php artisan serve
+# Starting Laravel development server: http://127.0.0.1:8000
+```
 
 #### API Endpoints
 The root `/api`.
