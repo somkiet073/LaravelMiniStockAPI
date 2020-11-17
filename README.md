@@ -7,10 +7,17 @@
  https://github.com/somkiet073/LaravelMiniStockAPI.git
 ```
 
-#### 2. Start server
+#### 2. Install vendor
 
 ```sh
 cd LaravelMiniStockAPI/
+composer install
+# install vendor
+```
+
+#### 3. Start server
+
+```sh
 php artisan serve
 # Starting Laravel development server: http://127.0.0.1:8000
 ```
