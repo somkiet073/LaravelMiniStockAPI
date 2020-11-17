@@ -1,0 +1,184 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TestLaravelMiniStockAPI",
+		"_postman_id": "7825288d-ef95-f9d0-bdcb-582173d0e44d",
+		"description": "ทดสอบ API Laravel Mini Stock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product API",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Product All",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/products",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product By ID",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/products/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Put Product",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/products/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"product_name\": \"lenovo thinkpad test update\",\n    \"product_detail\": \"หน่วยประมวลผล Intel Core i5-10210U Processor (1.60GHz, up to 4.20GHz with Turbo Boost, 4 Cores, 6MB Cache)\",\n    \"product_price\": 22000,\n    \"category_id\": 2\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Post Product",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/products",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"product_name\": \"iphone X\",\n    \"product_detail\": \"iphone X (64GB&256GB) iX แท้100% มีประกันร้าน 3 เดือน แถมฟิล์มกระจก+เคสใส ไอโฟน x iphonex\",\n    \"product_price\": 17000,\n    \"category_id\": 2\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/products/2",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categories",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Categories All",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/categories",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Categories By ID",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/categories/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "POST Categories",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/categories",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"category_name\": \"iot\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Categories",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/categories/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"category_name\": \"laptop test\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Categories",
+					"request": {
+						"url": "http://localhost/LaravelMiniStockAPI/public/api/categories/3",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
