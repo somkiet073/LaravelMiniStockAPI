@@ -4,7 +4,7 @@
 #### 1. Clone Project.
 
 ```sh
- https://github.com/somkiet073/LaravelMiniStockAPI.git
+git clone https://github.com/somkiet073/LaravelMiniStockAPI.git
 ```
 
 #### 2. Install vendor
