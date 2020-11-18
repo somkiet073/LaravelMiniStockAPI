@@ -22,14 +22,14 @@ create file database.sqlite
 # 
 ```
 
-#### 3. Migrate Database
+#### 4. Migrate Database
 
 ```sh
 php artisan migrate
 # 
 ```
 
-#### 4. Database Seeder
+#### 5. Database Seeder
 
 ```sh
 php artisan db:seed
