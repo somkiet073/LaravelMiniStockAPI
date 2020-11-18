@@ -15,6 +15,13 @@ composer install
 # install vendor
 ```
 
+#### 3. Create file database.sqlite in floder project/database
+
+```sh
+create file database.sqlite
+# 
+```
+
 #### 3. Migrate Database
 
 ```sh
